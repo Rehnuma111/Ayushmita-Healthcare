@@ -1,0 +1,15 @@
+@import "tailwindcss";
+/* REQUIRED FIX: allow Swiper to show slides */
+.swiper {
+  width: 100%;
+  overflow: visible !important;
+}
+
+.swiper-wrapper {
+  width: 100%;
+}
+
+.swiper-slide {
+  width: auto !important;
+  overflow: visible !important;
+}
