@@ -5,6 +5,12 @@ import Hero from '../components/HeroImage'
 import Footer from '../components/Footer'
 import MedicalTourism from '../components/MedicalTourism'
 import FindBySpecialisation from '../components/FindBySpecialisation'
+import TopPartnerHospitals from '../components/TopPartnerHospitals '
+import OurFamilies from '../components/OurFamilies'
+import FaqWithImage from '../components/FaqWithImage'
+import DoctorCareSlider from '../components/DoctorCareSlider'
+import PromoSlider from '../components/PromoSlider'
+import TestimonialSlider from '../components/TestimonialSlider'
 
 const Home: React.FC = () => {
     const jsonLd = {
@@ -28,8 +34,14 @@ const Home: React.FC = () => {
                 <Header />
                 <main className="flex-1">
                     <Hero />
-                    <MedicalTourism /> 
+                    <PromoSlider />
+                    <MedicalTourism />
                     <FindBySpecialisation />
+                    <TopPartnerHospitals />
+                    <OurFamilies />
+                    <FaqWithImage />
+                    <DoctorCareSlider />
+                    <TestimonialSlider />
                 </main>
                 <Footer />
             </div>

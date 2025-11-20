@@ -1,5 +1,4 @@
 import React from "react";
-import PromoCarousel from "./PromoCarousel";
 
 const countries = [
     { id: "in", name: "India", flag: "https://flagcdn.com/w80/in.png" },
@@ -14,11 +13,10 @@ export default function MedicalTourism() {
         <section className="py-12 md:py-20 bg-white">
             <div className="max-w-7xl mx-auto px-6">
 
-                {/* Promo Carousel Section */}
-                {/* <PromoCarousel /> */}
+              
 
                 {/* Heading */}
-                <div className="mt-16 text-center">
+                <div className=" text-center">
                     <h2 className="text-3xl md:text-4xl font-extrabold text-gray-800">
                         Top Medical Tourism
                     </h2>
